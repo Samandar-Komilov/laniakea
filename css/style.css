@@ -1,0 +1,39 @@
+.navbar {
+  background-color: transparent !important;
+}
+
+/* Trafalgar dagi section markazda turishi qayta korib chiqiladi! */
+
+:root {
+  --colorDefault: rgb(255, 200, 50);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-family: Ubuntu, sans-serif;
+  padding-left: 3%;
+}
+
+.navbar-nav > li {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.nav-link {
+  transition: 0.3s ease;
+  --webkit-transition: 0.3s ease;
+  --moz-transition: 0.3s ease;
+}
+
+.navbar-nav > li>a:hover {
+  color: var(--colorDefault) !important;
+}
+
+.home {
+  background: url("../images/main-page.jpg") no-repeat;
+  background-size: cover;
+  height: 130vh;
+}
+
+/* Background image ning vazifasi korib chiqiladi */
+
